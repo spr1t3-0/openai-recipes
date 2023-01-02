@@ -1,0 +1,6 @@
+{
+    "apiKey": "", 
+    "prompt": "generate a recipe for ${recipe} and return only the recipe formatted in HTML",
+    "host": "localhost",
+    "port": 80
+}

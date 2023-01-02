@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="spr1t3-0">
+    <meta name="license" content="wtfpl">
+    <link rel="stylesheet" href="/style">
+    <title>Wikipedia Generator</title>
+</head>
+<body>
+    <div class="container">
+        <a href="https://invidio.xamh.de/watch?v=VUREF3bL4ec">?</a>
+        <div class="row align-items-center vh-100">
+            <div class="col-6 mx-auto">
+                <div class="card shadow border">
+                    <div class="card-header d-flex-flex-column bg-secondary">
+                        <b>OpenAI Recipe generator</b>
+                    </div>
+                    <div class="card-body d-flex flex-column align-items-center bg-dark text-white">
+                        <div class="alert alert-primary"><b>Enter a dish to let the AI generate a recipe.</b> <br>The prompt that will get sent to OpenAI will look like:<br>"Generate a recipe for [your input]"<br><i>Eat at your own risk 😉</i><br>The generation may take a few seconds, you'll get redirected to the result automagically.</div>
+                        <form method="post" action="/generate">
+                            <label for="input">Enter your dish here</label>
+                            <input type="text" class="form-control mb-2" name="input" id="input" required="true">
+                            <input type="submit" class="btn btn-primary" value="Generate">
+                        </form> 
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
